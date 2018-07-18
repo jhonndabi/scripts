@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo 3 > /proc/sys/vm/drop_caches > /dev/null
 sysctl -w vm.drop_caches=3 > /dev/null
